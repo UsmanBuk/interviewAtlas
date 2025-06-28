@@ -28,7 +28,7 @@ export const hiringData: HiringEntry[] = [
     id: "lead-forensics-senior-software-engineer",
     company: "Lead Forensics",
     role: "Senior Software Engineer",
-    overview: "At Lead Forensics we look for engineers who can solve real-world problems and drive our product forward. Here's what to expect when applying as a Senior Software Engineer.",
+    overview: "From multiple candidates and research, it seems Lead Forensics looks for engineers who can solve real-world problems and drive their product forward. Based on candidate experiences, here's what to expect when applying as a Senior Software Engineer.",
     process: [
       {
         stageName: "Intro Call",
