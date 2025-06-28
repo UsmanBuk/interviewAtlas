@@ -51,7 +51,7 @@ export const hiringData: HiringEntry[] = [
       },
       {
         stageName: "Final Interview",
-        description: "A 60-minute conversation with the CEO focusing on leadership, culture fit, and your vision for the role. They will also ask technical questions about production deployments (dev to prod environment processes), production changes and feature flags usage, logging and monitoring with tools like Grafana, Prometheus, and CloudWatch. You'll also be asked to walk through and explain your code from the Coderbyte challenge.",
+        description: "A 45-60 minute conversation with the CEO focusing on leadership, culture fit, and your vision for the role. The interview includes both behavioral and technical components:\n\n**Technical Questions You Can Expect:**\n• How do you approach deploying code from development to production environments?\n• Explain your experience with production changes and rollback strategies\n• How do you implement and manage feature flags in production systems?\n• Describe your approach to logging and monitoring in production applications\n• Experience with monitoring tools like Grafana, Prometheus, and CloudWatch\n• Walk through and explain your solution from the Coderbyte challenge\n• Discuss debugging strategies for production issues\n\n**Behavioral Topics:**\n• Leadership experience and approach to mentoring junior developers\n• Cultural fit and alignment with company values\n• Your vision for the role and how you'd contribute to the team",
         expectedDuration: "45–60 minutes",
         format: "Video call"
       }
