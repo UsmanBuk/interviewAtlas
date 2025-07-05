@@ -11,7 +11,7 @@ const Header = () => {
           <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
             <Building className="h-8 w-8" />
             <div>
-              <h1 className="text-2xl font-bold">Hiring Path Generator</h1>
+              <h1 className="text-2xl font-bold">InterviewAtlas</h1>
               <p className="text-sm opacity-90">Explore company hiring processes</p>
             </div>
           </Link>

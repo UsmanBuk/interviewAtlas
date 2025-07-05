@@ -10,7 +10,7 @@ const WelcomeHome = () => {
       {/* Hero Section */}
       <div className="text-center mb-16">
         <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
-          Hiring Path Generator
+          InterviewAtlas
         </h1>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
           Navigate your job application journey with confidence. Our platform provides detailed insights 
