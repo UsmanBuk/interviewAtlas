@@ -25,6 +25,32 @@ export interface HiringEntry {
 
 export const hiringData: HiringEntry[] = [
   {
+    id: "monzo-software-engineer",
+    company: "Monzo",
+    role: "Software Engineer",
+    overview: "Based on candidate experiences, Monzo's hiring process focuses on collaborative problem-solving and technical communication. The pair programming session is designed to simulate real-world engineering collaboration at Monzo.",
+    process: [
+      {
+        stageName: "Initial Screening Call",
+        description: "A conversation with a Monzo recruiter or engineering manager to discuss your background, experience, and interest in Monzo. They'll explain the role, team structure, and answer any questions about the company culture and values.",
+        expectedDuration: "30 minutes",
+        format: "Video call"
+      },
+      {
+        stageName: "Pair Programming Session",
+        description: "A collaborative coding session with a Monzo engineer where you'll work together to implement functionality in a Python codebase. This is designed to simulate real-world engineering collaboration and assess your problem-solving approach, coding skills, and communication.",
+        expectedDuration: "90 minutes",
+        format: "Video call with screen sharing",
+        techTask: {
+          taskName: "In-Memory Ledger Implementation",
+          platform: "Python (shared screen)",
+          duration: "90 minutes",
+          description: "You'll work with a Monzo engineer to implement missing functionality in an InMemoryLedger class. The challenge involves implementing methods like balance_at() for point-in-time balance queries, and transaction management (begin, commit, rollback) with support for nested transactions. The focus is on collaborative problem-solving, code quality, and handling edge cases like invalid entry IDs and transaction errors."
+        }
+      }
+    ]
+  },
+  {
     id: "lead-forensics-senior-software-engineer",
     company: "Lead Forensics",
     role: "Senior Software Engineer",
