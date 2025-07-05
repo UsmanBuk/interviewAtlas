@@ -76,11 +76,12 @@ const ProcessStage = ({ stage, stageNumber }: ProcessStageProps) => {
               <Button variant="outline" size="sm" asChild>
                 <a 
                   href={stage.techTask.link} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  target={stage.techTask.link.startsWith('http') ? "_blank" : "_self"}
+                  rel={stage.techTask.link.startsWith('http') ? "noopener noreferrer" : undefined}
                   className="flex items-center gap-2"
                 >
-                  View Challenge <ExternalLink className="w-3 h-3" />
+                  {stage.techTask.link.startsWith('http') ? 'View Challenge' : 'Show Code'} 
+                  {stage.techTask.link.startsWith('http') && <ExternalLink className="w-3 h-3" />}
                 </a>
               </Button>
             )}

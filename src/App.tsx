@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CompaniesPage from "./pages/CompaniesPage";
 import CompanyDetailPage from "./pages/CompanyDetailPage";
+import MonzoCodePage from "./pages/MonzoCodePage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/companies" element={<CompaniesPage />} />
           <Route path="/company/:id" element={<CompanyDetailPage />} />
+          <Route path="/company/:id/code" element={<MonzoCodePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
